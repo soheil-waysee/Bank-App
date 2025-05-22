@@ -1,11 +1,5 @@
-import { Button } from '@mui/material';
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <div>
-      <Button variant="contained" color="primary">
-        Click Me
-      </Button>
-    </div>
-  );
+  redirect('/dashboard');
 }

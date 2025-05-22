@@ -1,5 +1,6 @@
 import { Header } from '@/app/components/layout/Header';
 import { ThemeRegistry } from '@/app/lib/mui/ThemeRegistry';
+import './globals.css';
 
 export default function RootLayout({
   children,

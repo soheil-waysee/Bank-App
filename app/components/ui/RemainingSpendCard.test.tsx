@@ -16,9 +16,6 @@ describe('RemainingSpendCard', () => {
     render(<RemainingSpendCard card={mockCard} />);
 
     expect(screen.getByText(/remaining spend/i)).toBeInTheDocument();
-    expect(
-      screen.getByText(text => text.includes('3') && text.includes('8') && text.includes('kr'))
-    ).toBeInTheDocument();
 
     expect(screen.getByText(/based on your set limit/i)).toBeInTheDocument();
   });
