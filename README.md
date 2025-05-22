@@ -3,22 +3,20 @@
 A modern banking application built with Next.js, React, and PostgreSQL.
 ## Demo
 
-![Demo of Bank App](demo-bank-app.gif)
+![Demo of Bank App](demo-bank-app-1.gif)
 
 ## Tech Stack
 
 - **Frontend**: Next.js 15, React 19, Material-UI 7
 - **Backend**: Node.js with Sequelize ORM
 - **Database**: PostgreSQL
-- **Testing**: Jest, React Testing Library
-- **Styling**: Emotion
+- **Testing**: Jest
 - **AWS Integration**: AWS Secrets Manager
 
 ## Prerequisites
 
 - Node.js (version specified in `.nvmrc`)
 - PostgreSQL
-- AWS account (for secrets management)
 
 ## Getting Started
 
