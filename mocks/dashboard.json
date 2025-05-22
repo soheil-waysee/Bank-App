@@ -1,0 +1,68 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Company AB",
+      "orgNumber": "556677-8899",
+      "createdAt": "2025-05-16T20:15:41.171Z",
+      "updatedAt": "2025-05-16T20:15:41.171Z"
+    },
+    {
+      "id": 2,
+      "name": "Company CD",
+      "orgNumber": "556688-9900",
+      "createdAt": "2025-05-16T20:15:41.171Z",
+      "updatedAt": "2025-05-16T20:15:41.171Z"
+    }
+  ],
+  "card": {
+    "id": 1,
+    "companyId": 1,
+    "number": "1234",
+    "status": "active",
+    "limit": 10000,
+    "used": 5400,
+    "createdAt": "2025-05-16T20:15:41.173Z",
+    "updatedAt": "2025-05-16T20:15:41.173Z"
+  },
+  "invoices": [
+    {
+      "id": 1,
+      "dueDate": "2025-05-23T20:15:41.175Z",
+      "amount": 3200,
+      "status": "unpaid",
+      "createdAt": "2025-05-16T20:15:41.175Z",
+      "updatedAt": "2025-05-16T20:15:41.175Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 10,
+      "description": "Amazon Web Services9",
+      "value": -432,
+      "currency": "SEK",
+      "date": "2025-05-16T20:15:41.179Z",
+      "createdAt": "2025-05-16T20:15:41.179Z",
+      "updatedAt": "2025-05-16T20:15:41.179Z"
+    },
+    {
+      "id": 11,
+      "description": "Amazon Web Services10",
+      "value": 486,
+      "currency": "SEK",
+      "date": "2025-05-16T20:15:41.179Z",
+      "createdAt": "2025-05-16T20:15:41.179Z",
+      "updatedAt": "2025-05-16T20:15:41.179Z"
+    },
+    {
+      "id": 12,
+      "description": "Amazon Web Services11",
+      "value": 26,
+      "currency": "SEK",
+      "date": "2025-05-16T20:15:41.179Z",
+      "createdAt": "2025-05-16T20:15:41.179Z",
+      "updatedAt": "2025-05-16T20:15:41.179Z"
+    }
+  ],
+  "transactionCount": 52
+}
